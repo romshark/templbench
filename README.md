@@ -1,3 +1,13 @@
+<a href="https://pkg.go.dev/github.com/romshark/templbench">
+    <img src="https://godoc.org/github.com/romshark/templbench?status.svg" alt="GoDoc">
+</a>
+<a href="https://goreportcard.com/report/github.com/romshark/templbench">
+    <img src="https://goreportcard.com/badge/github.com/romshark/templbench" alt="GoReportCard">
+</a>
+<a href='https://coveralls.io/github/romshark/templbench?branch=main'>
+    <img src='https://coveralls.io/repos/github/romshark/templbench/badge.svg?branch=main' alt='Coverage Status' />
+</a>
+
 # github.com/a-h/templ benchmark
 
 ```
@@ -14,7 +24,7 @@ Latencies     [mean, 50, 95, 99, max]    171.065µs, 147.672µs, 336.016µs, 622
 Bytes In      [total, mean]              116747543, 407.00
 Bytes Out     [total, mean]              0, 0.00
 Success       [ratio]                    100.00%
-Status Codes  [code:count]               200:286849  
+Status Codes  [code:count]               200:286849
 Error Set:
 ```
 
