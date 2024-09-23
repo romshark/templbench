@@ -1,0 +1,27 @@
+package templates
+
+templ htmlMain(title string) {
+	<!DOCTYPE html>
+	<html>
+		<head>
+			<title>{ title }</title>
+			<link rel="icon" href="/public/favicon.ico"/>
+			<script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+			<script src="/public/htmx.js"></script>
+			<script src="/public/dist.js"></script>
+			<link rel="stylesheet" href="/public/dist.css"/>
+		</head>
+		<body>
+			<div id="viewport">
+				{ children... }
+			</div>
+		</body>
+	</html>
+}
+
+templ pageHelloWorld(title, msg string) {
+	@htmlMain(title) {
+		<h1>Hello World Page!</h1>
+		<p>{msg}</p>
+	}
+}
