@@ -42,6 +42,15 @@ For help, run:
 go run . --help
 ```
 
+If you want to run the server process by yourself
+then you may execute the benchmark without building and running the server:
+
+```sh
+# Assuming your server already runs at http://127.0.0.1:9091
+# and the endpoint you want to benchmark is GET http://127.0.0.1:9091/helloworld.
+go run . -veg duration=5s -run "" -scheme http -host 127.0.0.1:9091 -method GET -path "/helloworld"
+```
+
 ## Adding Server Implementations
 
 Add your server implementation under `./cmd/<name>`, then execute:
