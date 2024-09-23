@@ -41,3 +41,11 @@ For help, run:
 ```sh
 go run . --help
 ```
+
+## Adding Server Implementations
+
+Add your server implementation under `./cmd/<name>`, then execute:
+
+```sh
+go run . -run ./cmd/<name>
+```
