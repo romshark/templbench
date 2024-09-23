@@ -1,11 +1,8 @@
-<a href="https://pkg.go.dev/github.com/romshark/templbench">
-    <img src="https://godoc.org/github.com/romshark/templbench?status.svg" alt="GoDoc">
+<a href="https://github.com/romshark/templbench/actions?query=workflow%3ACI">
+    <img src="https://github.com/romshark/templbench/workflows/CI/badge.svg" alt="GitHub Actions: CI">
 </a>
 <a href="https://goreportcard.com/report/github.com/romshark/templbench">
     <img src="https://goreportcard.com/badge/github.com/romshark/templbench" alt="GoReportCard">
-</a>
-<a href='https://coveralls.io/github/romshark/templbench?branch=main'>
-    <img src='https://coveralls.io/repos/github/romshark/templbench/badge.svg?branch=main' alt='Coverage Status' />
 </a>
 
 # github.com/a-h/templ benchmark
